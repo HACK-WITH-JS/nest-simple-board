@@ -13,7 +13,7 @@ POST http://localhost:3000/board
 Content-Type: application/json
 
 {
-    "name": "name",
+    "title": "",
     "content": "content"
 }
 ###
