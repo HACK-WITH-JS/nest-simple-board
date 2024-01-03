@@ -25,3 +25,7 @@ Content-Type: application/json
 {
     "name": "수정"
 }
+###
+
+#
+GET http://localhost:3000
