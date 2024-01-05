@@ -12,20 +12,21 @@ GET http://localhost:3000/board/1
 POST http://localhost:3000/board
 Content-Type: application/json
 
-{
-    "title": "",
+{   
+    "userId": "1",
+    "title": "test",
     "content": "content"
 }
 ###
 
 #게시글 수정
-PUT http://localhost:3000/board/1
+PUT http://localhost:3000/board/2
 Content-Type: application/json
 
 {
-    "name": "수정"
+    "content": "수정2"
 }
 ###
 
-#
-GET http://localhost:3000
+#게시글 삭제
+DELETE  http://localhost:3000/board/2
