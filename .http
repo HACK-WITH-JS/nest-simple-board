@@ -30,3 +30,29 @@ Content-Type: application/json
 
 #게시글 삭제
 DELETE  http://localhost:3000/board/2
+###
+
+# 유저 리스트 가져오기
+GET http://localhost:3000/user
+###
+
+#유저생성
+POST http://localhost:3000/user
+Content-Type: application/json
+
+{
+    "username": "abcdefghi2",
+    "password": "123456789",
+    "name": "haha"
+}
+###
+
+#로그인
+POST http://localhost:3000/user/login
+Content-Type: application/json
+
+{
+    "username": "abcdefghi2",
+    "password": "123456789"
+}
+###
